@@ -1,0 +1,262 @@
+.content-custom {
+  .wrappper {
+    width: auto;
+    height: auto;
+    text-align: center;
+    &__backgroup {
+      height: 70vh;
+      &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+
+        background-color: hsla(0, 68%, 28%, 0.356);
+      }
+    }
+    &-container__title {
+      margin: 20rem auto 0;
+      color: #fff;
+    }
+
+    .service__button {
+      @include button;
+      margin-top: 5.2rem;
+      margin-left: 0;
+
+      &:hover {
+        background: $text-color;
+        color: #fff;
+      }
+    }
+  }
+}
+main {
+  .customerCasesSingle__brief {
+    &-wrapper {
+      @include wrapper;
+
+      &::after {
+        height: 20%;
+        width: 50%;
+        left: 0;
+        position: absolute;
+        content: "";
+        top: 0;
+        z-index: 1;
+        background: #f5f5f5;
+      }
+    }
+    &__divWrap {
+      position: relative;
+      z-index: 2;
+    }
+    &__textWrapper {
+      z-index: 2;
+      margin: 0;
+      width: 87em;
+      padding: 0 16rem 8rem 0;
+
+      & > p {
+        max-width: 59rem;
+      }
+    }
+    &__title {
+      padding-top: 5rem;
+      max-width: 5.9rem;
+    }
+    &__about {
+      padding-top: 0;
+      position: absolute;
+      right: 0;
+      /* transform: translateX(25%); */
+      z-index: 2;
+      width: 50rem;
+      top: 19.2rem;
+      &__wrap {
+        padding-top: 43rem;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+      }
+
+      &__title {
+        font-size: 3rem;
+      }
+      &__row {
+        display: flex;
+        align-items: center;
+        &__title {
+          min-width: 11.8rem;
+        }
+      }
+    }
+  }
+  .customerCasesSingle__challenge {
+    padding: 5rem 0;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    display: block;
+
+    &-wrapper {
+      @include wrapper;
+    }
+
+    &__textWrap {
+      width: 77rem;
+
+      & > p {
+        max-width: 59rem;
+      }
+    }
+  }
+  .customerCasesSingle__service {
+    position: relative;
+    margin-top: 5rem;
+    z-index: 3;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 5rem;
+    &-wrapper {
+      @include wrapper;
+      /* display: flex;
+      align-items: center; */
+      &__titleWrap {
+        /* width: 45rem; */
+        margin-right: 3rem;
+      }
+    }
+    &__services {
+      display: flex;
+
+      &__figure {
+        max-width: 16rem;
+        text-align: center;
+        margin: 0 6.8rem 0 0;
+
+        &__img {
+          max-width: 7rem;
+          display: inline-block;
+        }
+        &__text {
+        }
+      }
+    }
+  }
+  .customerCasesSingle__gallery {
+    &-wrapper {
+      @include wrapper;
+      position: relative;
+      z-index: 12;
+      margin-bottom: 10rem;
+    }
+    &__figure {
+      height: 50rem;
+    }
+  }
+
+  .customerCasesSingle__feedbackResultsOutside {
+    position: relative;
+    z-index: 3;
+    &-wrapper {
+      @include wrapper;
+    }
+    .customerCasesSingle__results {
+      &__wrapper {
+        flex-wrap: wrap;
+        padding-top: 10rem;
+        padding-left: 10rem;
+        display: flex;
+        justify-content: space-between;
+      }
+      &__result {
+        width: 40%;
+        min-width: 40%;
+        margin-bottom: 6rem;
+        position: relative;
+
+        &__counter {
+          left: -10.3rem;
+          top: -1.3rem;
+          font-size: 4.8rem;
+          position: absolute;
+          color: #efce78;
+        }
+        &__copy {
+          font-size: 2.4rem;
+          line-height: 3rem;
+          margin-bottom: 1.2rem;
+          color: $text-color;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1199.98px) {
+  main {
+    .customerCasesSingle__brief {
+      &-wrapper {
+        padding: 0 3.6rem;
+      }
+      &__divWrap {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      &__textWrapper {
+        width: 100%;
+        padding: 0;
+
+        & > p {
+          max-width: 100%;
+        }
+      }
+      &__title {
+        padding-top: 5rem;
+        max-width: 5.9rem;
+      }
+      &__about {
+        margin: 2rem auto 0;
+        position: initial;
+        min-width: 50%;
+        width: auto;
+
+        &__wrap {
+          padding-top: 80%;
+        }
+
+        &__title {
+          font-size: 3rem;
+        }
+        &__row {
+          display: flex;
+          align-items: center;
+          &__title {
+            min-width: 11.8rem;
+          }
+        }
+      }
+    }
+    .customerCasesSingle__challenge {
+      &-wrapper {
+        padding: 0 3.6rem;
+      }
+
+      &__textWrap {
+        width: 100%;
+
+        & > p {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

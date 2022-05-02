@@ -1,0 +1,318 @@
+.who-we-are {
+  &__button {
+    @include button;
+    margin-top: 5.2rem;
+    margin-left: 0;
+
+    &:hover {
+      background-color: $text-color;
+      color: #fff;
+    }
+  }
+  .wrappper {
+    width: auto;
+    height: auto;
+    text-align: center;
+    &__backgroup {
+      height: 78rem;
+      &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+
+        background-color: rgba(0, 0, 0, 0.333);
+      }
+    }
+    &-container__title {
+      margin-top: 25.5rem;
+      color: #fff;
+    }
+  }
+
+  main {
+    margin-top: 0;
+
+    .weAre {
+      padding: 8rem 0 13rem;
+      position: relative;
+      &-wrapper {
+        @include wrapper;
+      }
+      &__title {
+        margin-bottom: 6rem;
+        text-align: left;
+        font-size: 4.8rem;
+        line-height: 5.3rem;
+        color: $text-color;
+        font-weight: 400;
+      }
+
+      &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        &__item {
+          padding-right: 7rem;
+          text-align: left;
+          margin-bottom: 0;
+          min-width: 40rem;
+        }
+        &__title {
+          font-size: 3rem;
+          line-height: 2.7rem;
+          margin-bottom: 3rem;
+          color: $text-color;
+          font-weight: 700;
+        }
+        &__text {
+          font-size: 1.8rem;
+          line-height: 2.7rem;
+          margin-bottom: 1.2rem;
+          color: $text-color;
+        }
+      }
+    }
+
+    .copyWithImage {
+      padding: 10rem 0 6rem;
+      background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(50%, #fff),
+        color-stop(40%, #efefef)
+      );
+      background: linear-gradient(90deg, #fff 50%, #efefef 0);
+
+      &__wrapper {
+        @include wrapper;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      &__copy {
+        order: 1;
+        width: 45rem;
+      }
+
+      &__figure {
+        margin-bottom: 0;
+        order: 2;
+        display: block;
+        background-size: cover;
+        background-position: 50%;
+        padding-top: 0;
+        width: 70rem;
+        height: 38.7rem;
+      }
+      &:nth-child(2n) {
+        background: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          color-stop(45%, #efefef),
+          color-stop(40%, #fff)
+        );
+        background: linear-gradient(90deg, #efefef 45%, #fff 0);
+
+        .copyWithImage__figure {
+          order: 1;
+        }
+        .copyWithImage__copy {
+          order: 2;
+        }
+      }
+    }
+  }
+}
+.columnsWithNumbers {
+  padding: 6rem 0 12rem;
+  &-wrapper {
+    @include wrapper;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__item {
+      width: 25%;
+      text-align: center;
+
+      &__number {
+        margin-bottom: 1.8rem;
+        font-size: 7.2rem;
+        line-height: 7.2rem;
+        font-weight: 700;
+        color: $text-color;
+      }
+      &__text {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-weight: 700;
+        color: $text-color;
+      }
+    }
+  }
+  &__bottom {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: $text-color;
+    margin: 9rem 0 0;
+  }
+}
+.fontTitle {
+  font-size: 4.8rem;
+  line-height: 5.3rem;
+  margin-bottom: 2.4rem;
+  color: $text-color;
+  font-weight: 400;
+}
+
+.fontP {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  margin-bottom: 1.2rem;
+  color: $text-color;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .who-we-are {
+    .who-we-are__button {
+      margin-top: 2.2rem;
+    }
+    .wrappper {
+      width: auto;
+      height: auto;
+      overflow: hidden;
+      &__backgroup {
+        height: 38rem;
+      }
+      &-container {
+        width: 124rem;
+        &__title {
+          margin-top: 10.2rem;
+          margin-bottom: 1rem;
+        }
+        &__description {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    main {
+      top: -2rem;
+      .columnsWithNumbers {
+        padding: 0 0 10px;
+
+        &-wrapper {
+          padding: 0 3.6rem;
+        }
+        &__wrapper__item {
+          &__number {
+            font-size: 4rem;
+            line-height: 5rem;
+            margin-bottom: 0.8rem;
+          }
+          &__text {
+            font-size: 1.2rem;
+
+            line-height: 2rem;
+          }
+        }
+        &__bottom {
+          text-align: center;
+          margin: 3rem 0 0;
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+        }
+      }
+      .weAre {
+        padding: 8rem 0 0;
+        &-wrapper {
+          padding: 0 3.6rem;
+        }
+        &__title {
+          margin-bottom: 4rem;
+          text-align: center;
+          font-size: 2.4rem;
+          line-height: 2.7rem;
+        }
+        &__wrapper {
+          flex-direction: column;
+          &__item {
+            text-align: center;
+            padding-right: 0;
+          }
+          &__title {
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            margin-bottom: 2rem;
+          }
+          &__text {
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            margin-bottom: 1.2rem;
+          }
+        }
+      }
+      .copyWithImage {
+        margin-bottom: 0;
+        background: none;
+        padding: 10px 0;
+        &__wrapper {
+          padding: 0 3.6rem;
+          flex-direction: column-reverse;
+          align-items: flex-start;
+        }
+        &__figure {
+          height: auto;
+          padding-top: 53%;
+          width: 100%;
+          margin-bottom: 3rem;
+        }
+        &__copy {
+          width: auto;
+          &__title,
+          .fontTitle {
+            font-size: 2.4rem;
+            line-height: 2.7rem;
+            margin-bottom: 2.4rem;
+          }
+          &__copy,
+          .fontP {
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            margin-bottom: 1.2rem;
+          }
+        }
+
+        &:nth-child(2n) {
+          background: none;
+          .copyWithImage__figure {
+            order: 2;
+          }
+          .copyWithImage__copy {
+            order: 1;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .who-we-are {
+    main {
+      .columnsWithNumbers__wrapper__item {
+        width: 50%;
+      }
+    }
+  }
+}

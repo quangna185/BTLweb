@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ODC - SMARTTEN</title>
+    <link rel="icon" href="../img/Favicon.svg" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../img/favicon.svg" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-banner">
+          <a href="../index.html" class="navbar-banner__link">
+            <img
+              src="../img/White_background.svg"
+              alt="logo"
+              class="navbar-banner__logo"
+            />
+            <img
+              src="../img/Red_background.svg"
+              alt="logo"
+              class="navbar-banner__logo navbar-banner__logo--scroll"
+            />
+          </a>
+          <div class="navbar-banner-menu">
+            <input
+              type="checkbox"
+              id="checkbox"
+              class="navbar-banner-menu__checkbox"
+            />
+            <label for="checkbox" class="navbar-burger"></label>
+            <div class="navbar-menu navbar-menu--mobile">
+              <div class="navbar-menu__container">
+                <a class="navbar-menu__item" href="../custom-case.html">
+                  Customer Cases
+                </a>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="checkboxTechnologies"
+                    style="display: none"
+                  />
+                  <label for="checkboxTechnologies" class="navbar-menu__item">
+                    <span>Technologies</span>
+                    <i class="fa fa-angle-down"></i>
+                  </label>
+                  <ul class="navbar-dropdown">
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../technologies/frontend.html"
+                      >
+                        Frontend
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../technologies/backend.html"
+                      >
+                        Backend
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../technologies/software-quality-assurance.html"
+                      >
+                        Software quality assurance
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../technologies/cloud-solutions.html"
+                      >
+                        Cloud Solutions
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../technologies/devops.html"
+                      >
+                        DevOps
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="checkboxServices"
+                    style="display: none"
+                  />
+                  <label for="checkboxServices" class="navbar-menu__item">
+                    <span>Services</span>
+                    <i class="fa fa-angle-down"></i>
+                  </label>
+                  <ul class="navbar-dropdown">
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../service/dedicated-development-teams.html"
+                      >
+                        Dedicated Development Teams
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../service/mobile-app-development.html"
+                      >
+                        Mobile App Development
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../service/web-applications-development.html"
+                      >
+                        Web App Development
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../service/e-commerce.html"
+                      >
+                        e-Commerce
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="navbar-menu__item__link"
+                        href="../service/quality-assurance-and-testing.html"
+                      >
+                        Quality Assurance and Testing
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a class="navbar-menu__item" href="../company.html">
+                  Company
+                </a>
+
+                <a class="navbar-menu__item" href="../blog.html"> Blog </a>
+                <a class="navbar-menu__item" href="../contact-us.html">
+                  Contact us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-group">
+          <ul class="navbar-menu">
+            <li>
+              <a class="navbar-menu-item__link" href="../custom-case.html">
+                <span> Customer Cases</span>
+              </a>
+            </li>
+            <li>
+              <ul class="navbar-item">
+                <a class="navbar-item__link">
+                  <span class="navbar-item__text">Technologies</span>
+                  <i class="fa fa-angle-down"></i>
+                </a>
+                <div class="navbar-megamenu">
+                  <ul class="navbar-megamenu__tabs menu-technologies">
+                    <li class="navbar-megamenu__tabs__link tab-2-1">
+                      <a href="../technologies/frontend.html">Frontend</a>
+                      <div
+                        style="
+                          background-image: url('../img/background-fontend.jpg');
+                        "
+                        class="navbar-megamenu__content--backgroup content-2-1 current-content"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Frontend
+                          </h3>
+                          <span>Fast, usable websites and web apps</span>
+                          With SMARTTEN you get world-class frontend engineering
+                          services that guarantee better usability and intuitive
+                          UIs, using the latest tools, techniques, and industry
+                          best practices. Our frontend development integrates
+                          well with external technologies and other web
+                          services, while our UI/UX designing team makes sure
+                          your users have the best visual experience.
+                        </div>
+                        <a
+                          href="../technologies/frontend.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li class="navbar-megamenu__tabs__link tab-2-2">
+                      <a href="../technologies/backend.html">Backend</a>
+                      <div
+                        style="
+                          background-image: url('../img/backgroup-backend.jpg');
+                        "
+                        class="navbar-megamenu__content--backgroup content-2-2"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Backend
+                          </h3>
+                          <span>Where the user experience really begins</span>
+                          Hidden away from your user’s eyes, it’s the most
+                          important part of your software, serving as a
+                          foundation for solid user experience. At SMARTTEN we
+                          specialize in providing high-quality backend
+                          development services to both startups and large
+                          enterprises, creating solutions that will help you
+                          carry out your plans, bring your product to market
+                          faster and ultimately increase your revenue.
+                        </div>
+                        <a
+                          href="../technologies/backend.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li class="navbar-megamenu__tabs__link tab-2-3">
+                      <a href="../technologies/software-quality-assurance.html"
+                        >Software quality assurance</a
+                      >
+                      <div
+                        style="
+                          background-image: url('../img/background-Software.jpg');
+                        "
+                        class="navbar-megamenu__content--backgroup content-2-3"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Software quality assurance
+                          </h3>
+                          <span>Always testing to keep improving</span>
+                          Handing your QA over to SMARTTEN will improve the
+                          quality of your software while reducing costs, saving
+                          development time, and maximizing your ROI. We offer
+                          testing as an integral part of the software
+                          development cycle or independent testing of
+                          applications and entire IT systems. Our testing
+                          services include functionality, usability, security,
+                          performance, and compatibility testing.
+                        </div>
+                        <a
+                          href="../technologies/software-quality-assurance.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li class="navbar-megamenu__tabs__link tab-2-4">
+                      <a href="../technologies/cloud-solutions.html"
+                        >Cloud Solutions</a
+                      >
+                      <div
+                        style="
+                          background-image: url('../img/background-cloud.jpg');
+                        "
+                        class="navbar-megamenu__content--backgroup content-2-4"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Cloud Solutions
+                          </h3>
+                          <span
+                            >End-to-end cloud architecture and deployments</span
+                          >
+                          Get expert consulting for your IT infrastructure to
+                          digitalize your business and transition to a cloud
+                          platform. We do end-to-end cloud architecture and
+                          deployments for our clients acting as subject matter
+                          experts. Our experienced Cloud Solution Architects
+                          have a deep understanding and practical knowledge of
+                          AWS (Amazon), Microsoft Azure, or Office 365 cloud
+                          computing technologies.
+                        </div>
+                        <a
+                          href="../technologies/cloud-solutions.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li class="navbar-megamenu__tabs__link tab-2-5">
+                      <a href="../technologies/devops.html">DevOps</a>
+                      <div
+                        style="
+                          background-image: url('../img/background-devop.jpg');
+                        "
+                        class="navbar-megamenu__content--backgroup content-2-5"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">DevOps</h3>
+                          <span>
+                            Automating software releases and
+                            infrastructure</span
+                          >
+                          Our DevOps consulting services for serverless and
+                          containerized enterprise applications include: Jenkins
+                          and Gitlab/Github for continuous integration,
+                          infrastructure automation, continuous delivery
+                          pipelines for cloud-native and microservice
+                          applications on Docker and Kubernetes, as well as
+                          analytics and intelligence.
+                        </div>
+                        <a
+                          href="../technologies/devops.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- <div class="nav__megamenu__nav">
+                  </div> -->
+                  <div class="nav__megamenu__content"></div>
+                </div>
+              </ul>
+            </li>
+            <li>
+              <ul class="navbar-item">
+                <a class="navbar-item__link">
+                  <span class="navbar-item__text">Services</span>
+                  <i class="fa fa-angle-down"></i>
+                </a>
+                <div class="navbar-megamenu">
+                  <ul class="navbar-megamenu__tabs menu-services">
+                    <li
+                      class="navbar-megamenu__tabs__link tab-1-1"
+                      data-tab="tab--180--6"
+                    >
+                      <a href="../service/dedicated-development-teams.html"
+                        >Dedicated Development Teams</a
+                      >
+                      <div
+                        style="
+                          background-image: url('../img/background-Offshore-Development.jpg');
+                        "
+                        id="tab--180--6"
+                        class="navbar-megamenu__content--backgroup content-1-1"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Dedicated Development Teams
+                          </h3>
+                          <span
+                            >Exceed your expectation through cooperation with
+                            our professionals</span
+                          >
+                          Autonomous, process-driven teams experienced in
+                          large-scale eCommerce projects ready to take on the
+                          next challenge.
+                        </div>
+                        <a
+                          href="../service/dedicated-development-teams.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li class="navbar-megamenu__tabs__link">
+                      <a href="../service/mobile-app-development.html"
+                        >Mobile App Development</a
+                      >
+                      <div
+                        style="
+                          background-image: url('../img/background-mobi-app.jpg');
+                        "
+                        class="navbar-megamenu__content--backgroup current-content"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Mobile App Development
+                          </h3>
+                          <span
+                            >Comprehensive solution for your mobile app</span
+                          >
+                          We are experienced in building B2B, B2C and P2B mobile
+                          apps for our clients. SMARTTEN creates high performing
+                          products with a wide range of features and
+                          integrations with third-party systems like
+                          governmental systems, insurance companies, bank and
+                          payment systems, insurance companies and many others.
+                        </div>
+                        <a
+                          href="../service/mobile-app-development.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="navbar-megamenu__tabs__link tab-1-2"
+                      data-tab="tab--180--3"
+                    >
+                      <a href="../service/web-applications-development.html"
+                        >Web App Development</a
+                      >
+                      <div
+                        style="
+                          background-image: url('../img/background-web-app.jpg');
+                        "
+                        id="tab--180--3"
+                        class="navbar-megamenu__content--backgroup content-1-2"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Web App Development
+                          </h3>
+                          <span>End-to-end development and integrations</span>
+                          We can build high-performing, UX-optimized web
+                          applications your users can access from anywhere, on
+                          any device, without downloading or installing
+                          anything. We focus on productivity, efficiency and
+                          scalability, so you can integrate your app with
+                          existing software, and expand it with new features and
+                          for new users in the future.
+                        </div>
+                        <a
+                          href="../service/web-applications-development.html"
+                          class="button"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li class="navbar-megamenu__tabs__link tab-1-3">
+                      <a href="../service/e-commerce.html">e-Commerce</a>
+                      <div
+                        style="
+                          background-image: url('../img/background-e-commer.jpg');
+                        "
+                        class="navbar-megamenu__content--backgroup content-1-3"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            e-Commerce
+                          </h3>
+                          <span>Getting you right in front of your buyers</span>
+                          If you need something more than a generic online store
+                          engine, at SMARTTEN we can create even the most
+                          sophisticated custom online store to sell your
+                          products and services – globally and at scale. We’ll
+                          make sure your store is intuitive and functional,
+                          integrates with other systems you use, and can handle
+                          peak volumes of traffic during the busiest sales
+                          holidays. So you can boost your product sales and get
+                          more repeat customers.
+                        </div>
+                        <a
+                          href="../service/e-commerce.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                    <li
+                      class="navbar-megamenu__tabs__link tab-1-4"
+                      data-tab="tab--180--5"
+                    >
+                      <a href="../service/quality-assurance-and-testing.html"
+                        >Quality Assurance and Testing</a
+                      >
+                      <div
+                        style="
+                          background-image: url('../img/background-test.jpg');
+                        "
+                        id="tab--180--5"
+                        class="navbar-megamenu__content--backgroup content-1-4"
+                      >
+                        <div class="navbar-megamenu__content-container">
+                          <h3 class="navbar-megamenu__content-title">
+                            Quality Assurance and Testing
+                          </h3>
+                          <span>Making sure nothing escapes our attention</span>
+                          Testing is an essential part of our process. We
+                          thoroughly test all the software we build or rewrite
+                          in manual, automation, and performance tests. All our
+                          testing steps like regression, load and stress tests,
+                          automation and CI are meant to make your software more
+                          efficient, usable, and reliable. We know earlier
+                          stability and fewer bugs mean shorter time to market
+                          and higher customer satisfaction.
+                        </div>
+                        <a
+                          href="../service/quality-assurance-and-testing.html"
+                          class="navbar-megamenu__content-btn"
+                          >Read more</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="navbar-megamenu__content"></div>
+                </div>
+              </ul>
+            </li>
+            <li>
+              <a class="navbar-menu-item__link" href="../company.html">
+                <span>Company</span>
+              </a>
+            </li>
+            <li>
+              <a class="navbar-menu-item__link" href="../blog.html">
+                <span>Blog</span>
+              </a>
+            </li>
+            <li>
+              <a class="navbar-menu-item__link" href="../contact-us.html">
+                <span>Contact us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="wrappper">
+      <section
+        class="wrappper__backgroup"
+        style="background-image: url('../img/blog-banner4.png')"
+        ;
+      >
+        <div class="wrappper-container">
+          <h1 class="wrappper-container__title location">
+            Document Management System (DMS) <br />
+          </h1>
+        </div>
+      </section>
+    </div>
+    <main>
+      <section class="blog">
+        <div class="blog-wrapper">
+          <div class="blog-post">
+            <p class="has-drop-cap">
+              In the era of technology, there is an impressive rise in offshore
+              software usage. As a result, the
+              <strong>Offshore Development Center</strong> is finding its way to
+              every business, be it a technological or non-tech company. This
+              type of service has even outweighed Outsourcing recently.&nbsp;
+            </p>
+            <br />
+            <p>
+              If you are interested in an ODC team or looking for a superior
+              solution for software development, this is a relevant option. Why?
+              The reasons will be revealed in this writing.&nbsp;
+            </p>
+            <h2>
+              <span
+                ><strong
+                  >What Is Offshore Development Center (ODC)?</strong
+                ></span
+              >
+            </h2>
+
+            <h3>
+              <span id="Definition"><strong>Definition</strong></span>
+            </h3>
+
+            <p>
+              An Offshore Development Center (ODC) is defined as an offshore
+              team of dedicated talents. It provides the services of developing
+              software to any company overseas. In other words, ODC is a branch
+              of a company functioning in another nation.&nbsp;The offshore
+              software development center is always placed in an area with lower
+              living standards compared to where its mother company lies. (<a
+                href="https://en.wikipedia.org/wiki/Offshore_custom_software_development"
+                >Wikipedia</a
+              >)
+            </p>
+
+            <h3>
+              <span id="Members"><strong>Members</strong></span>
+            </h3>
+
+            <p>There are some main members in a typical ODC team :</p>
+
+            <ul>
+              <li>
+                Project Manager. This person is in charge of the entire project,
+                from making plans to executing. Besides, he/she ensures that all
+                the necessary resources are covered.
+              </li>
+              <li>
+                Account Manager. He/She takes care of the relationships with
+                specific clients. Thus, this manager will guarantee their needs
+                are satisfied.
+              </li>
+              <li>
+                Usability Engineers. They do tests to estimate the
+                user-friendliness and usability of the clients’ products.&nbsp;
+              </li>
+              <li>
+                Test Engineers. They make sure that your product’s quality,
+                non-functional requirements, and integrity are checked.
+              </li>
+              <li>
+                Graphic Designers. These people create graphical visual concepts
+                and language. They progress the uniqueness of a product’s
+                persona or brand.
+              </li>
+              <li>
+                Designers and Developers. These members do the installation,
+                design, testing, and prolongation.
+              </li>
+              <li>
+                Content and Technical Writers. They create content and
+                instructions that are implemented into the website or software.
+              </li>
+            </ul>
+            <h2>
+              <span
+                ><strong
+                  >Differences Between Offshoring And Outsourcing</strong
+                ></span
+              >
+            </h2>
+
+            <p>
+              Outsourcing is defined as the way a domestic or foreign company
+              assigns a third party to outsource its business.
+            </p>
+
+            <p>
+              To be honest, ODC is often the opposite of Outsourcing. The
+              differences are indicated based on the following criteria:
+            </p>
+
+            <h3>
+              <span id="Domain"><strong>Domain</strong></span>
+            </h3>
+
+            <p>
+              ODC is the transaction between the offshore group and clients
+              separated by geographical borders.
+            </p>
+
+            <p>
+              Meanwhile, Outsourcing is the service offered for any company with
+              no limitation in location. Thus, Outsourcing has a larger domain
+              than the ODC.
+            </p>
+
+            <h3>
+              <span id="Costs"><strong>Costs</strong></span>
+            </h3>
+
+            <p>
+              As long as the client’s project is not going to scale, Outsourcing
+              is economical. However, having a particular ODC would bring a
+              great benefit.
+            </p>
+
+            <p>
+              Most of the offshore development center models always ask for a
+              deposit. Still, they promise to get a high return on your
+              investments in the distant future. Additionally, the price of work
+              is transparent.
+            </p>
+
+            <h3>
+              <span id="Team_Management"><strong>Team Management</strong></span>
+            </h3>
+
+            <p>
+              As mentioned before, the ODC team has fixed particular members.
+              This principle ensures their client’s project is run smoothly. All
+              the members are focused on your work.
+            </p>
+
+            <p>
+              On the contrary, Outsourcing teams are managed by the managers
+              from the service provider. The supervisors can exchange members
+              among different teams. As a result, the client has no direct
+              influence on the group.
+            </p>
+
+            <h3>
+              <span id="Mindset_And_Talents"
+                ><strong>Mindset And Talents</strong></span
+              >
+            </h3>
+
+            <p>
+              The companies of ODC provide the software engineers a more
+              supportive environment to take part in creating the IT product.
+            </p>
+
+            <p>
+              Also, the software developers are interested in working on one
+              project rather than distributing their talent on different
+              products. Working for ODC also helps them regularly exchange
+              experience with foreign specialists.&nbsp;
+            </p>
+
+            <h2>
+              <span><strong>What You Need To Consider</strong></span>
+            </h2>
+
+            <p>
+              Here are the
+              <strong>offshore development center benefits</strong> and
+              drawbacks to consider.
+            </p>
+
+            <h3>
+              <span id="Pros"><strong>Pros</strong></span>
+            </h3>
+
+            <p>
+              <strong>Economical.</strong> The service provider has the
+              necessary infrastructure available. There is no requirement for
+              investment in setting up the office. Similarly, its facilities,
+              communications, utilities, and IT infrastructure are at hand. The
+              only thing to do is hire team members to run the project.
+            </p>
+
+            <p>
+              <strong>Productive.</strong> The ODC model encourages autoscaling
+              in its IT department. The number of resources needed for a project
+              can be adjusted effectively. Additionally, their operation is
+              reliable enough to be transparent with the customers.&nbsp;
+            </p>
+
+            <p>
+              <strong>Timely insurance.</strong> You, as the client, directly
+              influence the operation of the team, the members follow suit with
+              the timeline you offered. Moreover, there are managers to
+              supervise the working speed and ensure the timeframe.
+              <strong>Great talent pool. </strong>There are countless IT
+              engineers around the world applying for the job in the ODC team.
+              Therefore, the source of talent is sufficient and high-qualified.
+              The offshore company also invests in training and enhancing the
+              skills of its members.
+            </p>
+
+            <h3>
+              <span id="Cons"><strong>Cons</strong></span>
+            </h3>
+
+            <p>
+              <strong>Communication Barrier.</strong> As mentioned before, ODC
+              is a service provider having transactions with a foreign company.
+              Thus, the difference in languages may lead to misunderstandings
+              during the collaboration.&nbsp;
+            </p>
+
+            <p>
+              The parties tend to use email, text messages, or online
+              conferences for discussion due to the distance. It is less
+              effective than interacting directly.
+            </p>
+
+            <p>
+              <strong>Cultural differences.</strong> Members of an ODC team
+              coming from different countries may have conflicts.&nbsp;
+            </p>
+
+            <p>
+              A normal attitude of a person can be rude behavior toward another
+              one in the group. Additionally, multi-culture people have distinct
+              mindsets and attitudes. They also have different demands for
+              day-off for national holidays.
+            </p>
+
+            <p>
+              <strong>Time zone.</strong> When you collaborate with an abroad
+              client, you have a different time zone from your host company. It
+              means one of you two has to adjust the working shift, or your
+              discussion will be distracted.
+            </p>
+
+            <p>
+              <strong>Security risks.</strong> The offshore engineers ask for
+              your private information (data, workflows) to build software.
+              Thus, the client should have a safeguard strategy and precautions
+              to protect their IP.
+            </p>
+
+            <p>
+              <strong>Related article</strong>: What Makes a Good Offshore
+              Development Center?
+            </p>
+
+            <h2>
+              <span
+                ><strong
+                  >Advantages of Offshore Development Center?</strong
+                ></span
+              >
+            </h2>
+
+            <ul>
+              <li>
+                The whole ODC team will focus on a particular project from the
+                beginning till the end. Thus, you can concentrate completely on
+                your core business tasks. The stability throughout the timeframe
+                is ensured as well.
+              </li>
+              <li>
+                An ODC functions as a subsidiary to the host company in another
+                country. Thus, the large projects will progress significantly,
+                especially if there are over 30 members in a group.
+              </li>
+              <li>
+                You have exclusive control over the operation of the project by
+                interfacing with the members in charge of the business.&nbsp;
+              </li>
+              <li>
+                There is no distraction on your work’s efficiency and security
+                when you take it off-site.
+              </li>
+              <li>
+                The ODC service offers connections with talented software
+                engineers around the world. There is no need to worry about the
+                quality of work.
+              </li>
+            </ul>
+            <p>
+              <strong
+                ><em
+                  >Read more about Offshore development center benefits
+                </em></strong
+              >
+            </p>
+
+            <h2>
+              <span><strong>What Are The Risks And Challenges?</strong></span>
+            </h2>
+
+            <p>
+              Here are the typical
+              <strong>offshore development center risks</strong> and hardships
+              that you may face up with.
+            </p>
+
+            <h3>
+              <span id="Legal_Issue"><strong>Legal Issue</strong></span>
+            </h3>
+
+            <p>
+              When building an agency in a foreign region, the host company must
+              pay attention to the related legal regulations in that nation.
+              Particularly, the business policies should be considered carefully
+              then estimate the benefit.&nbsp;
+            </p>
+
+            <p>
+              The law will regulate your business throughout. Thus, if you are
+              not familiar with the local law system, you should hire a legal
+              adviser.
+            </p>
+
+            <h3>
+              <span id="Cultural_Challenges"
+                ><strong>Cultural Challenges</strong></span
+              >
+            </h3>
+
+            <p>
+              As mentioned before, there are differences in people’s cultures in
+              the ODC team. It results in unexpected conflicts. The managers
+              should introduce the members so that they get acquainted.&nbsp;
+            </p>
+
+            <p>
+              For instance, managers can assign people resembling cultural
+              habits in the same group. Team-building events also lend a hand to
+              boost working relationships.
+            </p>
+
+            <h3>
+              <span id="Management_Challenges"
+                ><strong>Management Challenges</strong></span
+              >
+            </h3>
+
+            <p>
+              The process to fulfill all typical positions in a team is
+              challenging. There are criteria to consider, including reasonable
+              finance quality insurance.&nbsp;<strong
+                >Managing offshore development teams</strong
+              >
+              with multi-culture members also requires the managers to be
+              skillful and experienced.
+            </p>
+
+            <h3>
+              <span id="Communication_Challengesnbsp"
+                ><strong>Communication Challenges&nbsp;</strong></span
+              >
+            </h3>
+
+            <p>
+              Direct interaction is the most effective means of communication.
+              However, the client often finds it hard to discuss face-to-face
+              with the software developers because they are not native
+              people.&nbsp;
+            </p>
+
+            <p>
+              This phenomenon results in limited influence during the project
+              lifecycle of the customers. Besides, there would be
+              misunderstandings causing mistakes during the process.&nbsp;
+            </p>
+
+            <h3>
+              <span id="Security_Risks"><strong>Security Risks</strong></span>
+            </h3>
+
+            <p>
+              Providing offshore engineers with private information is
+              unavoidable. There is also a certain distance between you and the
+              service provider. Thus, it poses a risk to data insurance,
+              especially sensitive information.
+            </p>
+
+            <p>
+              Unfortunately, you can not prevent data leakage completely by
+              keeping all the resources in only one location. The advice is to
+              create network security into the infrastructure of the ODC you are
+              collaborating with.&nbsp;
+            </p>
+
+            <h2>
+              <span
+                ><strong>Why Is Vietnam Ideal to Set Up an ODC?</strong></span
+              >
+            </h2>
+
+            <h3>
+              <span id="Culture_Work_Ethic"
+                ><strong>Culture &amp; Work Ethic</strong></span
+              >
+            </h3>
+
+            <p>
+              Vietnamese members of the offshore team are friendly and humorous.
+              At the same time, their determination to finish the work and
+              motivation to develop is amazing.
+            </p>
+
+            <p>
+              They have a strong sense of balance in working, especially caring
+              for the members’ health. Thus, there is hardly burnout, and the
+              team’s productivity is maintained. If there is an issue happening,
+              they still manage to finish the task.
+            </p>
+
+            <p>
+              Generally, Vietnamese culture and work ethic meet the demand for
+              productivity enhancement. Even if these developers face
+              difficulties applying new technology, they can handle it well. The
+              solution is to account for the possible problems and learning
+              curve.
+            </p>
+
+            <h3>
+              <span id="IT_Labor_Cost"><strong>IT Labor Cost</strong></span>
+            </h3>
+
+            <p>
+              The Vietnamese labor market has more competitive prices than those
+              from the US, Japan, or Singapore. Not to mention, Vietnamese IT
+              professionals have great potential.
+            </p>
+
+            <p>
+              The developers in this country have the salary lower by 40 to 50%
+              than other developed IT nations. Still, the cost is 1.5 times
+              higher than the domestic collaboration.
+            </p>
+
+            <h3>
+              <span id="The_Ecosystem"><strong>The Ecosystem</strong></span>
+            </h3>
+
+            <p>
+              According to the Program for International Student Assessment,
+              Vietnam has got a healthier living environment and higher
+              education standards. The national human capital index of this
+              country is second only to Singapore in ASEAN.
+            </p>
+
+            <p>
+              Around 55 Vietnamese universities are providing the technical
+              training curriculum. A stable number of graduates even participate
+              in training schemes to gain more experience in real-life projects.
+            </p>
+
+            <h3>
+              <span id="Support"><strong>Support</strong></span>
+            </h3>
+
+            <p>
+              The Vietnamese government has greatly supported technological
+              development in this country. There are policies to promote the
+              national economy for investment from abroad.
+            </p>
+
+            <p>
+              The labor source in Vietnam is adequate and young with more than
+              half of the population being under the age of 30. Particularly,
+              over 25000 technical engineers graduate from universities each
+              year and are always ready to work.
+            </p>
+
+            <h2>
+              <span
+                ><strong>How To Set Up An Offshore Development Center</strong
+                >?</span
+              >
+            </h2>
+
+            <p>
+              In this part, the
+              <strong>offshore development center checklist</strong> will be
+              provided.
+            </p>
+
+            <h3>
+              <span
+                ><strong>Build The Plan And Chose A Proper Model</strong></span
+              >
+            </h3>
+
+            <p>
+              Here are some typical
+              <strong
+                >types of offshore development centers (offshore development
+                center model)</strong
+              >:
+            </p>
+
+            <ul>
+              <li>Software ODC trust</li>
+              <li>Software ODC classic</li>
+              <li>The ODC full form</li>
+              <li>Software ODC branded&nbsp;</li>
+            </ul>
+            <h3>
+              <span id="Locationnbsp"><strong>Location&nbsp;</strong></span>
+            </h3>
+
+            <p>
+              We all know that your ODC will be placed abroad. However, it is
+              necessary to gain insight into the offshore markets in different
+              regions.&nbsp;
+            </p>
+
+            <p>
+              <strong>How to set up an offshore development center?</strong> It
+              would help to target the countries with high demand for this
+              service.
+            </p>
+
+            <p>
+              For instance, Northern European nations tend to choose outsourcing
+              projects. Meanwhile, the SouthEast Asian region has become more
+              active in ODC projects .&nbsp;
+            </p>
+
+            <p>
+              Thus, you can choose to invest in an ODC team in a country in this
+              continent, such as Vietnam. Then you should find the most
+              developing city with large technical talent pools.
+            </p>
+
+            <p>
+              <strong><em>Read more:</em></strong> Why Vietnam is an ideal
+              choice for software outsourcing?
+            </p>
+
+            <h3>
+              <span id="Cost"><strong>Cost</strong></span>
+            </h3>
+
+            <p>
+              Besides considering the location, you should pay attention to the
+              financial investment. In other words, try to make a comparison
+              among the countries’ price gaps.
+            </p>
+
+            <p>
+              You can go for the nation spending the highest on the IT industry
+              like India, China, Vietnam. At the same time, there are countries
+              having great rises in the number of ODC projects and companies
+              that are also worth your consideration.&nbsp;
+            </p>
+
+            <h3>
+              <span id="KPI"><strong>KPI</strong></span>
+            </h3>
+
+            <p>
+              You should clarify your goals and set the timeline for your
+              project. Introduce the KPI to your ODC members and discuss the
+              strategies to reach the target. There are requirements for
+              finance, expectations, and timely KPI with quality assurance .
+            </p>
+
+            <p>
+              It is recommended to train the newbies about your service and
+              work. Make sure that they can relate your ideas as well.
+            </p>
+
+            <h3>
+              <span id="Technical_Support"
+                ><strong>Technical Support</strong></span
+              >
+            </h3>
+
+            <p>
+              Ensure that the employed ODC services offer comprehensive
+              technical support . It should remain unchanged from the beginning
+              till the end of the project.
+            </p>
+
+            <h3>
+              <span
+                ><strong>Testing &amp; Quality Assurance&nbsp;</strong></span
+              >
+            </h3>
+
+            <p>
+              The step of Quality Assurance approves more effective control of
+              the application. Thus, you will evaluate the work’s compliance
+              based on the initial standards quickly and conveniently.&nbsp;
+            </p>
+
+            <h3>
+              <span
+                ><strong>Security – Find Out A Reliable Partner</strong></span
+              >
+            </h3>
+
+            <p>
+              Remember to carefully choose a reliable offshore development
+              center to protect your data. Before signing the contract, consider
+              their recovery solutions if your data is leaked.&nbsp;
+            </p>
+
+            <p>
+              The tip for choosing the right collaborator is to have a look at
+              the company’s history of work. Choosing a team that has effective
+              communication is also a way to go. Then you can reduce the chances
+              of misunderstanding.
+            </p>
+
+            <h2>
+              <span id="Last_Words"><strong>Last Words</strong></span>
+            </h2>
+
+            <p>
+              That is all the fundamental information about the
+              <strong>Offshore Development Center</strong>. This model not only
+              satisfies the demands of clients but also guarantees the offshore
+              team’s function and productivity.
+            </p>
+
+            <p>
+              If you plan to build an ODC team, besides choosing regions with
+              developed technology, it is recommended to target the emerging
+              market with potential IT labor like Asia, notably Vietnam.
+            </p>
+
+            <div class="st-post-tags">
+              Tags:
+              <a href="../blog.html">Offshore Software Development</a><br />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="insights">
+        <div class="insights-wrapper">
+          <h2 class="insights__title">
+            Insights
+            <a href="../blog.html" class="insights__button"
+              >Show all articles</a
+            >
+          </h2>
+          <div class="slidesInsights">
+            <article class="insights__article">
+              <figure
+                class="insights__article__figure"
+                style="background-image: url('../img/blog-banner4.png')"
+              ></figure>
+              <h3 class="insights__article__title">
+                Offshore Development Center (ODC): The Definitive Guide
+              </h3>
+              <div class="insights__article__meta">
+                <span>24/03/2022</span>
+              </div>
+              <a
+                href="./ODC.html"
+                class="insights__article__readMore"
+                tabindex="0"
+                >Read more</a
+              >
+            </article>
+            <article class="insights__article">
+              <figure
+                class="insights__article__figure"
+                style="background-image: url('../img/banner-background3.jpg')"
+              ></figure>
+              <h3 class="insights__article__title">
+                Vietnam Software Outsourcing IndustryD
+              </h3>
+              <div class="insights__article__meta">
+                <span>23/02/2022</span>
+              </div>
+              <a
+                href="./vietnam-software-outsourcing-industry.html"
+                class="insights__article__readMore"
+                tabindex="0"
+                >Read more</a
+              >
+              >
+            </article>
+            <article class="insights__article">
+              <figure
+                class="insights__article__figure"
+                style="background-image: url('../img/banner-blog2.png')"
+              ></figure>
+              <h3 class="insights__article__title">
+                The Strategy and Process of Software Product Development
+              </h3>
+              <div class="insights__article__meta">
+                <span>23/01/2022</span>
+              </div>
+              <a
+                href="./the-strategy-and-process-of-software-product-development.html"
+                class="insights__article__readMore"
+                tabindex="0"
+                >Read more</a
+              >
+            </article>
+            <article class="insights__article">
+              <figure
+                class="insights__article__figure"
+                style="background-image: url('../img/blog-banner.png')"
+              ></figure>
+              <h3 class="insights__article__title">
+                Full-time Dedicated Team Model in Software Outsourcing
+              </h3>
+              <div class="insights__article__meta">
+                <span>12/01/2022</span>
+              </div>
+              <a
+                href="./full-time-dedicated-team-model-in-software-outsourcing.html"
+                class="insights__article__readMore"
+                tabindex="0"
+                >Read more</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <a class="backToTop" id="back-top">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+    <footer class="footer">
+      <div class="contactForm" id="letsTalk">
+        <div class="contactForm-wrapper">
+          <div class="contactForm__wrapper">
+            <div class="contactForm__form">
+              <div>
+                <div class="screen-reader-response">
+                  <p role="status" aria-live="polite" aria-atomic="true"></p>
+                  <ul></ul>
+                </div>
+                <form method="post" class="wpcf7-form init">
+                  <div class="contactForm__row">
+                    <div class="group">
+                      <div class="from-field">
+                        <input
+                          type="text"
+                          name="your-name"
+                          value=""
+                          size="40"
+                          placeholder=" "
+                          class="form-input"
+                          aria-required="true"
+                          aria-invalid="false"
+                        />
+                        <label class="from-label">Your name</label>
+                      </div>
+                    </div>
+                    <div class="group">
+                      <div class="from-field">
+                        <input
+                          type="email"
+                          name="your-email"
+                          value=""
+                          size="40"
+                          placeholder=" "
+                          class="form-input"
+                          aria-required="true"
+                          aria-invalid="false"
+                        /><label class="from-label">Email</label>
+                      </div>
+                    </div>
+                    <div class="group">
+                      <div class="from-field">
+                        <input
+                          type="tel"
+                          name="your-tel"
+                          value=""
+                          size="40"
+                          placeholder=" "
+                          class="form-input"
+                          aria-required="true"
+                          aria-invalid="false"
+                        /><label class="from-label">Phone</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contactForm__row">
+                    <div class="from-field">
+                      <input
+                        type="text"
+                        name="your-message"
+                        value=""
+                        size="40"
+                        placeholder=" "
+                        class="form-input"
+                        aria-required="true"
+                        aria-invalid="false"
+                      /><label class="from-label"
+                        >What can we do for you?</label
+                      >
+                    </div>
+                  </div>
+                  <div class="contactForm__row">
+                    <span>
+                      <label class="label-check"
+                        ><input
+                          type="checkbox"
+                          name="acceptance-field"
+                          value="1"
+                          aria-invalid="false"
+                        /><span class="label-check__title"
+                          >Chcę otrzymywać powiadomienia pocztą elektroniczną,
+                          na wskazany powyżej adres e-mail, o ofercie i
+                          aktywności SMARTTEN.</span
+                        ></label
+                      ></span
+                    ><br />
+                    <input
+                      type="submit"
+                      value="Send your message"
+                      class="form-submit"
+                    /><span class="ajax-loader"></span>
+                  </div>
+                  <div class="contactForm__row">
+                    <p class="description">
+                      Zawiadamiamy, że obsługa Państwa zapytania wymaga
+                      wykorzystania danych na Państwa temat. Pełna treść zgody
+                      znajduje się
+                      <a class="showPopup" href="#openPopup">tutaj</a>.
+                    </p>
+                  </div>
+                  <div id="openPopup" class="openPopup">
+                    <p class="fontCopy">
+                      Administratorem Państwa danych osobowych jest SMARTTEN sp.
+                      z o.o. z siedzibą 61-129 Poznań, ul. Stanisława
+                      Małachowskiego 10. Administrator powołał Inspektora
+                      Ochrony Danych. Z IOD można się kontaktować pocztą
+                      elektroniczną, na adres sales@smartten.com.vn.<br /><br />
+                      Państwa dane posłużą do udzielenia Państwu odpowiedzi na
+                      przesłane zapytanie. Podstawą tego przetwarzania jest
+                      zasada głosząca, że dopuszczalne jest przetwarzanie danych
+                      zmierzające do zawarcia umowy, na wniosek osoby, której
+                      dane te dotyczą – jeżeli kierujecie Państwo do nas
+                      zapytanie ofertowe – lub przesłanka głosząca, że
+                      przetwarzanie danych dozwolone jest w tzw. prawnie
+                      uzasadnionym interesie administratora – jeżeli piszecie do
+                      nas Państwo zgłaszając problem techniczny lub zapytując o
+                      funkcjonalności naszej strony.<br /><br />
+                      W przypadku wyrażenia dobrowolnej zgody, poprzez
+                      zaznaczenie checkboxa powyżej, Państwa dane posłużą
+                      również do wysyłania wiadomości, które zawierać będą
+                      również treści marketingowe. Podstawą tego przetwarzania
+                      jest Państwa zgoda. Zgodę tą można wycofać przez kontakt z
+                      IOD.<br /><br /><br />
+                      Przysługuje Państwu prawo dostępu do danych, korekty
+                      danych, do bycia zapomnianym, prawo do ograniczenia
+                      przetwarzania, przenoszenia danych oraz prawo do
+                      sprzeciwu.<br /><br />
+                      Szczegółowa informacja o ochronie Państwa prywatności
+                      znajduje się w
+                      <a>polityce prywatności.</a>
+                    </p>
+                  </div>
+                  <div class="wpcf7-response-output" aria-hidden="true"></div>
+                </form>
+              </div>
+            </div>
+            <div class="contactForm__ideas">
+              <div class="contactForm__ideas__wrapper">
+                <h2 class="contactForm__ideas__title">
+                  Let`s Discuss<br />
+                  Your Ideas
+                </h2>
+                <p class="contactForm__ideas__content">
+                  Simply fill the form or email us at
+                  <br />
+                  <a href="#">sales@smartten.com.vn</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <section class="footer__top footer__top--mobile">
+          <div class="footer__top__widget">
+            <input type="checkbox" id="services" style="display: none" />
+            <label for="services" class="widgettitle"> Services </label>
+            <div class="menu-services-container">
+              <ul id="menu-services" class="menu">
+                <li id="menu-item-640" class="menu-item">
+                  <a href="../service/dedicated-development-teams.html"
+                    >Dedicated Development Teams</a
+                  >
+                </li>
+                <li id="menu-item-639" class="menu-item">
+                  <a href="../service/e-commerce.html">e-Commerce</a>
+                </li>
+                <li id="menu-item-4636" class="menu-item">
+                  <a href="../service/mobile-app-development.html"
+                    >Mobile App Development</a
+                  >
+                </li>
+                <li id="menu-item-644" class="menu-item">
+                  <a href="../service/web-applications-development.html"
+                    >Web Applications Development</a
+                  >
+                </li>
+
+                <li id="menu-item-642" class="menu-item">
+                  <a href="../service/quality-assurance-and-testing.html"
+                    >Quality Assurance and Testing</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__top__widget">
+            <input type="checkbox" id="customer" style="display: none" />
+            <label for="customer" class="widgettitle"> Customer Cases </label>
+            <div class="menu-services-container">
+              <ul class="menu-customer-cases" class="menu">
+                <li id="menu-item-1203" class="menu-item">
+                  <a href="../custom-case/DMS.html"
+                    >Document Management System (DMS)</a
+                  >
+                </li>
+                <li id="menu-item-1204" class="menu-item">
+                  <a href="../custom-case/Language-Exchange.html"
+                    >Language Exchange - HeyPal Nebula Software Corp</a
+                  >
+                </li>
+                <li id="menu-item-1742" class="menu-item">
+                  <a href="../custom-case/E-claim.html"
+                    >MIC E-claim Military Insurance Company</a
+                  >
+                </li>
+                <li id="menu-item-4643" class="menu-item">
+                  <a href="../custom-case/Gametector.html"
+                    >ゲームテクター (Gametector) Tabeena,Inc.</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__top__widget">
+            <input type="checkbox" id="technologies" style="display: none" />
+            <label for="technologies" class="widgettitle">Technologies</label>
+            <div class="menu-services-container">
+              <ul id="menu-technologies" class="menu">
+                <li
+                  id="menu-item-1061"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1061"
+                >
+                  <a href="../technologies/frontend.html">Frontend</a>
+                </li>
+                <li
+                  id="menu-item-1062"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1062"
+                >
+                  <a href="../technologies/backend.html">Backend</a>
+                </li>
+                <li
+                  id="menu-item-1065"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1065"
+                >
+                  <a href="../technologies/software-quality-assurance.html"
+                    >Software Quality Assurance</a
+                  >
+                </li>
+                <li
+                  id="menu-item-1066"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066"
+                >
+                  <a href="../technologies/cloud-solutions.html"
+                    >Cloud Solutions</a
+                  >
+                </li>
+                <li
+                  id="menu-item-1063"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1063"
+                >
+                  <a href="../technologies/devops.html">DevOps</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__top__widget">
+            <input type="checkbox" id="who-we-are" style="display: none" />
+            <label for="who-we-are" class="widgettitle">Who we are</label>
+            <div class="menu-services-container">
+              <ul id="menu-who-we-are" class="menu">
+                <li
+                  id="menu-item-638"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-638"
+                >
+                  <a href="../company.html">Company</a>
+                </li>
+                <li
+                  id="menu-item-636"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-636"
+                >
+                  <a href="../blog.html">Blog</a>
+                </li>
+                <li
+                  id="menu-item-637"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-637"
+                >
+                  <a href="../contact-us.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__top__widget">
+            <h2 class="address">SMARTTEN sp. z o.o.</h2>
+            <div class="textwidget">
+              <p>
+                03rd Floor, Ocean Park Building, <br />
+                1 Dao Duy Anh Str, Dong Da Dist, <br />
+                Hanoi, Vietnam
+              </p>
+              <p>
+                <span class="ico_env">sales@smartten.com.vn</span><br />
+                <span class="ico_tel">(+84) 246 259 3698</span>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer__bottom">
+          <p class="footer__copyright">
+            © 2022 SMARTTEN. All rights reserved.
+            <a href="">Privacy policy</a>
+            |
+            <a href="">Cookies policy</a>
+          </p>
+          <div class="group-icon-footer">
+            <div class="footer__socials">
+              <div class="footer__social">
+                <a target="_blank" href="https://www.facebook.com/smartten.jsc"
+                  ><img src="../img/ico_fb.svg"
+                /></a>
+              </div>
+              <div class="footer__social">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/smartten/about/"
+                  ><img src="../img/ico_in.svg"
+                /></a>
+              </div>
+              <div class="footer__social">
+                <a target="_blank" href=""
+                  ><img src="../img/ico_intsta.svg"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <a href="https://partner.microsoft.com/" target="_blank"
+                ><img src="../img/LogoGoldAppDevSmall.png"
+              /></a>
+              <a href="https://www.episerver.com/" target="_blank"
+                ><img src="../img/episerver.svg"
+              /></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="../js/ux.js"></script>
+</html>
